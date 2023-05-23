@@ -137,4 +137,10 @@ CUDA_VISIBLE_DEVICES=0 python -m src.benchmark --num-data 1024 --strategy gt --v
 ## Citation
 
 ```bibtex
+@article{zheng2023response,
+    title={Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline},
+    author={Zangwei Zheng and Xiaozhe Ren and Fuzhao Xue and Yang Luo and Xin Jiang and Yang You},
+    journal={arXiv preprint arXiv:2305.13144},
+    year={2023}
+}
 ```
