@@ -6,9 +6,11 @@
 
 ## Description
 
-PyTorch implementation of Response Length Prediction & Sequence Scheduling.
+PyTorch implementation of paper "[Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/abs/2305.13144)".
 
 ![Sequence Scheduling Pipeline](./imgs/pipeline.png)
+
+We find that large language models (LLMs) have the remarkable ability to **perceive the length of their generated responses in advance**. Leveraging this LLM ability, we propose a novel technique called **Sequence Scheduling** to improve the efficiency of LLM batch inference. By grouping queries with similar perceived response lengths together, we significantly reduce redundant computations and achieve an impressive **86%** improvement in inference throughput without compromising performance.
 
 ## Perception in Advance (PiA)
 
