@@ -6,7 +6,7 @@
 
 ## Description
 
-PyTorch implementation of paper "[Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/abs/2305.13144)".
+PyTorch implementation of paper "[Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/abs/2305.13144)". [[blog](https://zhengzangw.github.io/blogs/seqsch/)]
 
 ![Sequence Scheduling Pipeline](./imgs/pipeline.png)
 
